@@ -1,0 +1,25 @@
+[class^="btn-"]{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+
+    &:active{
+        transform: translateY(2px);
+    }
+
+    &.btn-contact{
+        width: 286px;
+        height: 74px;
+        font-family: Raleway;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        color: var(--white-color);
+        background-color: var(--orange-color);
+    }
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Inter ;
+    src: url("/assets/font/inter/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+@font-face {
+    font-family: Raleway ;
+    src: url("/assets/font/Raleway/Raleway-VariableFont_wght.ttf");
+}
