@@ -11,6 +11,7 @@
 
         div {
             margin: 20px 20px;
+
             h1 {
                 display: inline-block;
                 font-size: 35px;
@@ -36,12 +37,9 @@
             justify-content: space-between;
             align-items: center;
 
-            div{
+            div {
                 text-align: center;
             }
-
-
         }
     }
-
 }
