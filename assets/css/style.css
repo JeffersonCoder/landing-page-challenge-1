@@ -2,3 +2,9 @@
 @import url("fonts.css");
 @import url("variables.css");
 @import url("button.css");
+@import url("global.css");
+
+@import url("section-header.css");
+@import url("section-project-history.css");
+@import url("section-history-and-experience.css");
+@import url("section-contact.css");

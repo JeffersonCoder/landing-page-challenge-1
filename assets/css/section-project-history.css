@@ -1,0 +1,30 @@
+#section-project-history {
+    background-color: var(--light-gray-color);
+    height: 229px;
+    display: flex;
+    align-items: center;
+
+    .section-project-history-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    @media screen and (max-width: 600px) {
+        height: auto;
+
+        .section-project-history-content {
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            >div {
+                text-align: center;
+                padding: 20px;
+            }
+
+        }
+    }
+
+}

@@ -1,0 +1,54 @@
+#section-contact {
+    background-color: var(--primary-color);
+
+    h1 {
+        margin: 50px 0 20px;
+        font-size: 32px;
+        line-height: 48px;
+        font-weight: 700;
+        text-align: center;
+        color: var(--white-color);
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        input {
+            width: 508px;
+            height: 72px;
+            border-radius: 10px;
+            margin: 30px 0;
+            font-size: 24px;
+            padding-left: 20px;
+            margin: mone;
+            outline: none;
+
+        }
+
+        ::placeholder {
+            color: var(--black30-color);
+            font-family: Raleway;
+            padding-left: 10px;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        button {
+            margin: 50px;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        input {
+            max-width: 95%;
+        }
+
+        button{
+            width: 200px;
+        }
+    }
+
+
+}

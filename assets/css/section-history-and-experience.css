@@ -1,0 +1,46 @@
+#section-history-and-experience {
+    margin-top: 50px;
+
+    .section-history-and-experience-content {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        div:first-of-type {
+            max-width: 735px;
+            padding-right: 50px;
+
+            h1 {
+                font-size: 36px;
+                font-weight: 600;
+                margin-bottom: 25px;
+            }
+
+            p {
+                font-weight: 300;
+                font-size: 22px;
+                line-height: 30px;
+            }
+
+        }
+
+        .projectIMG {
+            width: 90%;
+        }
+    }
+
+    @media screen and (max-width: 992px) {
+        margin-top: 25px;
+
+        .section-history-and-experience-content {
+            flex-direction: column;
+            align-items: center;
+            gap: 25px;
+
+            div:first-of-type {
+                padding-right: 0px;
+            }
+        }
+    }
+
+}
